@@ -18,14 +18,17 @@ body{
   line-height: 100%;
   font-family: 'century gothic', sans-serif;
   font-weight: bold;
-
 }
 
-.nav{
+nav{
   font-size: 20px;
   font-family: 'century gothic',sans-serif;
   font-weight: bold;
   text-align: center;
+}
+
+.spacer{
+  margin-right: 10px;
 }
 
 /* Home Page */
@@ -44,21 +47,25 @@ img{
   overflow: auto;
 }
 
+.empty{
+  margin-bottom: 150px;
+}
+
 #cats{
   font-size: 25px;
   font-family: 'century gothic',sans-serif;
+  margin-right: 100px;
   text-align: center;
 }
 
-#catvid{
+#catvids{
   position: relative;
-  bottom: -150px;
-  left: -300px;
 }
-#catvid2{
-  position: relative;
-  bottom: -10px;
-  left: 600px;
+
+#catvid{
+  float: left;
+  margin-left: 250px;
+  margin-right: 10px;
 }
 }
 
@@ -109,6 +116,13 @@ img{
 
 /*Contact Page*/
 @media (min-width:600px) {
+#contact{
+  font-size: 20px;
+  font-family: 'century gothic', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
 #msg-form{
   text-align: left;
   width: 900px;
