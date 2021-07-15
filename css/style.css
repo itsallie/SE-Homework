@@ -1,0 +1,134 @@
+/*All the pages*/
+body{
+  background: #FFE4E1;
+}
+
+.name{
+  color: #C9A9A6;
+  text-align: center;
+  font-size: 60px;
+  text-decoration: underline;
+  font-family: 'Sacramento', cursive;
+}
+
+.header{
+  color: #E0BFB8;
+  text-align: center;
+  font-size: 35px;
+  line-height: 100%;
+  font-family: 'century gothic', sans-serif;
+  font-weight: bold;
+
+}
+
+.nav{
+  font-size: 20px;
+  font-family: 'century gothic',sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Home Page */
+@media (min-width:600px) {
+img{
+  float: left;
+  margin: 0 0 2em 2em;
+}
+
+#intro{
+  font-size: 20px;
+  color: #AA336A;
+  font-family: 'century gothic',sans-serif;
+  width: 900px;
+  margin: auto;
+  overflow: auto;
+}
+
+#cats{
+  font-size: 25px;
+  font-family: 'century gothic',sans-serif;
+  text-align: center;
+}
+
+#catvid{
+  position: relative;
+  bottom: -150px;
+  left: -300px;
+}
+#catvid2{
+  position: relative;
+  bottom: -10px;
+  left: 600px;
+}
+}
+
+/*About Page*/
+@media (min-width:600px) {
+#aboutme{
+  font-size: 20px;
+  color: #AA336A;
+  font-family: 'century gothic',sans-serif;
+  width: 900px;
+  margin: auto;
+  overflow: auto;
+}
+#extra{
+  font-size: 20px;
+  color: #AA336A;
+  font-family: 'century gothic',sans-serif;
+  width: 900px;
+  margin: auto;
+  overflow: auto;
+}
+.lists{
+  position: relative;
+  left: 300px;
+  font-size: 20px;
+  font-family: 'century gothic', sans-serif;
+
+}
+#interests{
+  float: left;
+  margin: auto;
+}
+
+#favshow{
+  float: left;
+  margin: auto;
+}
+
+#songs{
+  position: relative;
+  left: 175px;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  font-family: 'century gothic',sans-serif;
+}
+}
+
+/*Contact Page*/
+@media (min-width:600px) {
+#msg-form{
+  text-align: left;
+  width: 900px;
+  margin: auto;
+}
+
+input[type=button]:hover{
+  background-color:#DB7093;
+}
+input[type=text]:focus{
+  background-color: #FFB6C1;
+}
+input[type=email]:focus{
+  background-color: #FFB6C1;
+}
+textarea:focus{
+  background-color: #FFB6C1;
+}
+
+.socialmedia{
+  text-align: left;
+}
+}
